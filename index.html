@@ -294,35 +294,28 @@
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            <div class="form-group mb-md-0">
+                            <div class="form-group">
                                 <!-- Phone number input-->
                                 <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
-                            <div class="mb-3">
-                            <label class="form-control d-block">Please select the service you need.</label>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" id="optionA" type="checkbox" name="newField7" data-sb-validations="required" />
-                                <label class="form-check-label" for="optionA">Tree Trimming</label>
+                            <div class="form-group">
+                                <!-- Address input-->
+                                <input class="form-control" id="address" type="text" placeholder="Your Address *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="address:required">An address is required.</div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" id="optionB" type="checkbox" name="newField7" data-sb-validations="required" />
-                                <label class="form-check-label" for="optionB">Weed Abatement</label>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="services" aria-label="services">
+                                    <option value="1"></option>
+                                    <option value="2">Tree Trimming</option>
+                                    <option value="3">Weed Abatement</option>
+                                    <option value="4">Crane Tree Removal</option>
+                                    <option value="5">Tree Removal</option>
+                                    <option value="6">Hazard Tree Removal</option>
+                                </select>
+                                <label for="newField1">Select the service you need</label>
+                                <div class="invalid-feedback" data-sb-feedback="services:required">An address is required.</div>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" id="optionC" type="checkbox" name="newField7" data-sb-validations="required" />
-                                <label class="form-check-label" for="optionC">Crane Tree Removal</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" id="optionD" type="checkbox" name="newField7" data-sb-validations="required" />
-                                <label class="form-check-label" for="optionD">Tree Removal</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" id="optionE" type="checkbox" name="newField7" data-sb-validations="required" />
-                                <label class="form-check-label" for="optionE">Hazard Tree Removal</label>
-                            </div>
-                            <div class="invalid-feedback" data-sb-feedback="newField7:required">One option is required.</div>
-                        </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
